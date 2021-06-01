@@ -1,0 +1,40 @@
+body{
+    background-color: blanchedalmond;
+}
+
+p {
+    margin: 0;
+    font-family: "Apercu Pro",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: lightsalmon;
+    text-align: left;
+    background-color: #fff;
+}
+
+img {
+    width: 400px;
+}
+h1 {
+    color: darkgoldenrod;
+}
+#spanId {
+  color: green;
+  font-size: 18px;
+  margin: 50px;
+} */
+ul {
+    background-color: blanchedalmond;
+}
+.divClass {
+    color:cornflowerblue;
+}
+
+#thirdDiv {
+    color:darkblue;
+    height: 600px;
+    width: 500px;
+    background-color:darkgray;
+    border-width: 5px;
+  }
