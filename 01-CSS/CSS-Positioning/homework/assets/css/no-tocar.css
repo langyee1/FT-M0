@@ -1,8 +1,13 @@
+
+span {
+  
+  font-family: 'El Messiri', sans-serif;
+}
 body {
   background: #e5efff;
   margin: 95px 0 100px 0;
   color: #383f49;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #header {
