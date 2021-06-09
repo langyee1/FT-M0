@@ -88,11 +88,15 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  suma = 0; 
-  for (var i = 0 ; i < numeros.length; i++) {
-    suma = suma + numeros[i];
-  }
-  return suma;
+  var suma = numeros.reduce(function(acumulador, elemento){
+    return acumulador + elemento; 
+  },0);
+  return suma; 
+  // var suma = 0; 
+  // for (var i = 0 ; i < numeros.length; i++) {
+  //   suma = suma + numeros[i];
+  // }
+  // return suma;
 }
 
 
